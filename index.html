@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="/login.js"></script>
+  <script defer src="/clock.js"></script>
+  <script defer src="/geo.js"></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <!--===================login==================-->
+    <div class="login">
+      <form action="#" id="form">
+        <label for="inputName">What's your name?</label>
+        <input type="text" placeholder="Plese input your name" id="inputName"><br>
+        <label for="inputAge">How old are you?</label>
+        <input type="number" placeholder="Plese input your age" id="inputAge">
+        <button>Login</button>
+      </form>
+      <h3 id="welcome"></h3>
+      <h4 id="birth"></h4>
+    </div>
+
+    <!--===================clock==================-->
+    <div class="clock-container">
+      <span id="clockSpan"></span>
+    </div>
+
+    <!--===================geo==================-->
+    <div class="geo">
+      <span id="geoSpan"></span>
+    </div>
+  </div>
+</body>
+
+</html>
